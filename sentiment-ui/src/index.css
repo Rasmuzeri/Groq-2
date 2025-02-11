@@ -1,0 +1,40 @@
+/* src/index.css */
+/* Reset default styles and set base font */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Set up root element and base typography */
+  #root {
+    min-height: 100vh;
+    width: 100%;
+  }
+  
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1.5;
+  }
+  
+  /* Ensure proper display for form elements */
+  button, select, textarea {
+    font-family: inherit;
+    font-size: inherit;
+  }
+  
+  /* Remove default focus rings and set custom focus styles */
+  *:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.3);
+  }
+  
+  /* Basic responsive image handling */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
